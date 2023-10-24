@@ -1,12 +1,12 @@
 package main
 
 import (
-	"github.com/cajami/godesde0/funciones"
+	arreglosslices "github.com/cajami/godesde0/arreglos_slices"
 )
 
 func main() {
 
-	funciones.Exponencia(2)
+	arreglosslices.Capacidad()
 
 	// files.LeoArchivo()
 	// files.SumaTabla()
