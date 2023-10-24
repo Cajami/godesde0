@@ -1,12 +1,14 @@
 package main
 
 import (
-	"github.com/cajami/godesde0/mapas"
+	"github.com/cajami/godesde0/users"
 )
 
 func main() {
 
-	mapas.MostrarMapas()
+	users.AltaUsuario()
+
+	// mapas.MostrarMapas()
 
 
 	// arreglosslices.Capacidad()
