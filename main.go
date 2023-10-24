@@ -1,12 +1,14 @@
 package main
 
 import (
-	"github.com/cajami/godesde0/files"
+	"github.com/cajami/godesde0/funciones"
 )
 
 func main() {
 
-	files.LeoArchivo()
+	funciones.LlamarClosure()
+
+	// files.LeoArchivo()
 	// files.SumaTabla()
 	// texto := ejercicios.Multiplicar()
 
