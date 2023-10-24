@@ -1,13 +1,24 @@
 package main
 
 import (
-	deferpanic "github.com/cajami/godesde0/defer_panic"
+	// deferpanic "github.com/cajami/godesde0/defer_panic"
+
+	"fmt"
+
+	"github.com/cajami/godesde0/goroutines"
 )
 
 func main() {
 
-	deferpanic.VemosDefer()
-	deferpanic.EjemploPanic()
+	go goroutines.MiNombreLento("Javier")
+
+	fmt.Println("Estoy aqui")
+
+	var x string 
+	fmt.Scanln(&x)
+
+	// deferpanic.VemosDefer()
+	// deferpanic.EjemploPanic()
 
 	// Pedro := new(modelos.Hombre)
 	// e.HumanosRespirando(Pedro)
