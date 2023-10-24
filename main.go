@@ -1,12 +1,15 @@
 package main
 
 import (
-	"github.com/cajami/godesde0/variables"
+	"fmt"
 
+	"github.com/cajami/godesde0/variables"
 )
 
 func main() {
 
-	variables.MuestroEnteros()
+	estado, texto := variables.ConviertoaTexto(216)
+	fmt.Println(estado)
+	fmt.Println(texto)
 
 }
