@@ -10,12 +10,19 @@ import (
 
 func main() {
 
-	go goroutines.MiNombreLento("Javier")
+	canal1 := make(chan bool)
+
+	go goroutines.MiNombreLento("Javier", canal1)
+
+	defer func() {
+		<-canal1
+
+	}()
 
 	fmt.Println("Estoy aqui")
 
-	var x string 
-	fmt.Scanln(&x)
+	// var x string
+	// fmt.Scanln(&x)
 
 	// deferpanic.VemosDefer()
 	// deferpanic.EjemploPanic()
