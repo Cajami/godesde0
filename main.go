@@ -1,15 +1,21 @@
 package main
 
 import (
-	"github.com/cajami/godesde0/users"
+	e "github.com/cajami/godesde0/ejer_interfaces"
+	"github.com/cajami/godesde0/modelos"
 )
 
 func main() {
 
-	users.AltaUsuario()
+	Pedro := new(modelos.Hombre)
+	e.HumanosRespirando(Pedro)
+
+	Maria := new(modelos.Mujer)
+	e.HumanosRespirando(Maria)
+
+	// users.AltaUsuario()
 
 	// mapas.MostrarMapas()
-
 
 	// arreglosslices.Capacidad()
 
