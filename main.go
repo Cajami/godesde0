@@ -1,25 +1,23 @@
 package main
 
 import (
-	// deferpanic "github.com/cajami/godesde0/defer_panic"
-
-	"fmt"
-
-	"github.com/cajami/godesde0/goroutines"
+	"github.com/cajami/godesde0/webserver"
 )
 
 func main() {
 
-	canal1 := make(chan bool)
+	webserver.MiWebServer()
 
-	go goroutines.MiNombreLento("Javier", canal1)
+	// canal1 := make(chan bool)
 
-	defer func() {
-		<-canal1
+	// go goroutines.MiNombreLento("Javier", canal1)
 
-	}()
+	// defer func() {
+	// 	<-canal1
 
-	fmt.Println("Estoy aqui")
+	// }()
+
+	// fmt.Println("Estoy aqui")
 
 	// var x string
 	// fmt.Scanln(&x)
