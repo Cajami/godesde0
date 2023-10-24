@@ -6,7 +6,7 @@ import (
 
 func main() {
 
-	funciones.LlamarClosure()
+	funciones.Exponencia(2)
 
 	// files.LeoArchivo()
 	// files.SumaTabla()
