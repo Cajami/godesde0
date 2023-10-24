@@ -1,12 +1,14 @@
 package main
 
 import (
-	"github.com/cajami/godesde0/webserver"
+	"github.com/cajami/godesde0/middleware"
 )
 
 func main() {
 
-	webserver.MiWebServer()
+	middleware.MiMiddleware()
+
+	// webserver.MiWebServer()
 
 	// canal1 := make(chan bool)
 
