@@ -1,12 +1,15 @@
 package main
 
 import (
-	arreglosslices "github.com/cajami/godesde0/arreglos_slices"
+	"github.com/cajami/godesde0/mapas"
 )
 
 func main() {
 
-	arreglosslices.Capacidad()
+	mapas.MostrarMapas()
+
+
+	// arreglosslices.Capacidad()
 
 	// files.LeoArchivo()
 	// files.SumaTabla()
