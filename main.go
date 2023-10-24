@@ -1,12 +1,16 @@
 package main
 
 import (
-	"github.com/cajami/godesde0/ejercicios"
+	"github.com/cajami/godesde0/files"
 )
 
 func main() {
 
-	ejercicios.Multiplicar()
+	files.LeoArchivo()
+	// files.SumaTabla()
+	// texto := ejercicios.Multiplicar()
+
+	// fmt.Println(texto)
 	// iteraciones.Iterar()
 
 	// teclado.IngresoNumeros()
