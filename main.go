@@ -1,17 +1,19 @@
 package main
 
 import (
-	e "github.com/cajami/godesde0/ejer_interfaces"
-	"github.com/cajami/godesde0/modelos"
+	deferpanic "github.com/cajami/godesde0/defer_panic"
 )
 
 func main() {
 
-	Pedro := new(modelos.Hombre)
-	e.HumanosRespirando(Pedro)
+	deferpanic.VemosDefer()
+	deferpanic.EjemploPanic()
 
-	Maria := new(modelos.Mujer)
-	e.HumanosRespirando(Maria)
+	// Pedro := new(modelos.Hombre)
+	// e.HumanosRespirando(Pedro)
+
+	// Maria := new(modelos.Mujer)
+	// e.HumanosRespirando(Maria)
 
 	// users.AltaUsuario()
 
